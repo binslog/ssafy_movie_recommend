@@ -1,0 +1,363 @@
+[
+  {
+    "pk": 505642,
+    "model": "movies.trend",
+    "fields": {
+      "movie_id": 505642,
+      "title": "블랙 팬서: 와칸다 포에버",
+      "released_date": "2022-11-09",
+      "popularity": 3728.879,
+      "vote_avg": 7.53,
+      "overview": "국왕이자 블랙 팬서인 티찰라의 죽음 이후 수많은 강대국으로부터 위협을 받게 된 와칸다. 라몬다, 슈리 그리고 나키아, 오코예, 음바쿠는 각자 사명감을 갖고 와칸다를 지키기 위해 외로운 싸움을 이어간다. 한편, 비브라늄의 패권을 둘러싼 미스터리한 음모와 함께 깊은 해저에서 모습을 드러낸 최강의 적 네이머와 탈로칸의 전사들은 와칸다를 향해 무차별 공격을 퍼붓기 시작하는데…",
+      "poster_path": "/3PCRWLeqp5y20k6XVzcamZR3BWF.jpg",
+      "genres": [
+        28,
+        12,
+        878
+      ]
+    }
+  },
+  {
+    "pk": 436270,
+    "model": "movies.trend",
+    "fields": {
+      "movie_id": 436270,
+      "title": "블랙 아담",
+      "released_date": "2022-10-19",
+      "popularity": 4430.63,
+      "vote_avg": 6.853,
+      "overview": "기원전 가장 번성하고 위대한 고대 국가였지만 현재는 국제 군사 조직 인터갱의 독재 국가로 전락한 칸다크. 인터갱의 눈을 피해 고대 유물을 찾던 '아드리아나'는 우연히 5000년 동안 잠들어 있던 '블랙 아담'을 깨우게 된다.  엄청난 괴력과 스피드, 방탄 능력과 자유자재의 고공비행, 번개를 쏘는 능력까지. 온몸이 무기인 '블랙 아담'은 자신의 앞을 막아서는 인터갱들을 모조리 쓸어버리고 칸다크 국민들은 이에 열광한다. 한편, 그의 폭주를 막기 위해 호크맨, 닥터 페이트, 아톰 스매셔, 사이클론으로 구성된 히어로 군단 '저스티스 소사이어티'가 칸다크에 나타나는데...",
+      "poster_path": "/mEdMHGy1FfCUc7PskFO0tibm8jp.jpg",
+      "genres": [
+        28,
+        14,
+        878
+      ]
+    }
+  },
+  {
+    "pk": 829280,
+    "model": "movies.trend",
+    "fields": {
+      "movie_id": 829280,
+      "title": "에놀라 홈즈 2",
+      "released_date": "2022-11-04",
+      "popularity": 1961.331,
+      "vote_avg": 7.7,
+      "overview": "탐정이 된 후 첫 번째 사건을 수임한 에놀라. 하지만 실종된 소녀의 미스터리를 풀기 위해서는 친구들의 도움이 필요하다. 어쩌면 오빠 셜록의 도움까지도.",
+      "poster_path": "/S6fDnntDjduIWuLW2GcqFasobD.jpg",
+      "genres": [
+        9648,
+        12,
+        80
+      ]
+    }
+  },
+  {
+    "pk": 882598,
+    "model": "movies.trend",
+    "fields": {
+      "movie_id": 882598,
+      "title": "스마일",
+      "released_date": "2022-09-23",
+      "popularity": 3419.675,
+      "vote_avg": 6.745,
+      "overview": "기괴한 미소를 지으며 자신의 눈 앞에서 목숨을 끊는 환자를 목격한 정신과 의사 ‘로즈’. 그날 이후로 ‘로즈’의 일상에 설명할 수 없는 끔찍한 일들이 잇따라 발생한다. 일상을 덮친 공포에 발버둥치던 ‘로즈’는 이전에도 자신과 같은 일을 겪은 사람들이 있었고 그들 모두 끔찍한 죽음을 피할 수 없었다는 사실을 알게 된다. 시시각각 다가오는 죽음에서 벗어나기 위해 사투를 벌이던 로즈는 잊고 싶던 과거와 마주하게 되는데…",
+      "poster_path": "/8ncuVFt4e0M2NTTsoPtbxfWN5dO.jpg",
+      "genres": [
+        27,
+        9648,
+        53
+      ]
+    }
+  },
+  {
+    "pk": 49046,
+    "model": "movies.trend",
+    "fields": {
+      "movie_id": 49046,
+      "title": "서부 전선 이상 없다",
+      "released_date": "2022-10-07",
+      "popularity": 1420.85,
+      "vote_avg": 7.827,
+      "overview": "제1차 세계대전 당시 서부전선에서 싸운 독일군 청년의 강렬한 이야기.  젊은 사병과 전우들은 참호 속에서 사투를 벌이며,  처음 전쟁에 대해 느꼈던 환상과 도취감이  어떻게 절망과 공포로 변해가는지를 생생하게 체험한다.",
+      "poster_path": "/hYqOjJ7Gh1fbqXrxlIao1g8ZehF.jpg",
+      "genres": [
+        10752,
+        18,
+        28
+      ]
+    }
+  },
+  {
+    "pk": 664469,
+    "model": "movies.trend",
+    "fields": {
+      "movie_id": 664469,
+      "title": "암스테르담",
+      "released_date": "2022-09-27",
+      "popularity": 358.861,
+      "vote_avg": 6.094,
+      "overview": "살인 사건에 휘말린 세명의 친구가 스스로 용의자가 되어 사건 뒤에 숨겨진 거대한 음모를 파헤치는 범죄 스릴러",
+      "poster_path": "/jkTAORlbp4P7UpyTFmxbFHVW3Kk.jpg",
+      "genres": [
+        80,
+        35,
+        36,
+        9648,
+        53
+      ]
+    }
+  },
+  {
+    "pk": 361743,
+    "model": "movies.trend",
+    "fields": {
+      "movie_id": 361743,
+      "title": "탑건: 매버릭",
+      "released_date": "2022-05-24",
+      "popularity": 761.054,
+      "vote_avg": 8.345,
+      "overview": "최고의 파일럿이자 전설적인 인물 매버릭은 자신이 졸업한 훈련학교 교관으로 발탁된다. 그의 명성을 모르던 팀원들은 매버릭의 지시를 무시하지만 실전을 방불케 하는 상공 훈련에서 눈으로 봐도 믿기 힘든 전설적인 조종 실력에 모두가 압도된다. 매버릭의 지휘 아래 견고한 팀워크를 쌓아가던 팀원들에게 국경을 뛰어넘는 위험한 임무가 주어지자 매버릭은 자신이 가르친 동료들과 함께 마지막이 될지 모를 하늘 위 비행에 나서는데...",
+      "poster_path": "/jeqXUwNilvNqNXqAHsdwm5pEfae.jpg",
+      "genres": [
+        28,
+        18
+      ]
+    }
+  },
+  {
+    "pk": 948276,
+    "model": "movies.trend",
+    "fields": {
+      "movie_id": 948276,
+      "title": "사라진 탄환 2",
+      "released_date": "2022-11-10",
+      "popularity": 986.273,
+      "vote_avg": 7.321,
+      "overview": "누명을 벗은 천재 자동차 정비공 리노. 이제 그의 마음속에 남은 목표는 단 하나. 동생과 멘토를 죽인 비리 경찰들에게 복수하는 것이다.",
+      "poster_path": "/uAeZI1JJbLPq7Bu5dziH7emHeu7.jpg",
+      "genres": [
+        28,
+        18,
+        53
+      ]
+    }
+  },
+  {
+    "pk": 766475,
+    "model": "movies.trend",
+    "fields": {
+      "movie_id": 766475,
+      "title": "씨 하우 데이 런",
+      "released_date": "2022-09-09",
+      "popularity": 132.076,
+      "vote_avg": 6.599,
+      "overview": "연극무대와 관련된 사람들이 연쇄살인을 당하는 내용과 이를 추적하는 경찰들의 수사과정을 다룬 영화",
+      "poster_path": "/r3rpSAi2yukZwr9H2km0WKGODWo.jpg",
+      "genres": [
+        9648,
+        53,
+        35
+      ]
+    }
+  },
+  {
+    "pk": 1013860,
+    "model": "movies.trend",
+    "fields": {
+      "movie_id": 1013860,
+      "title": "R.I.P.D.:알.아이.피.디.  2",
+      "released_date": "2022-11-15",
+      "popularity": 441.339,
+      "vote_avg": 6.8,
+      "overview": "When Sheriff Roy Pulsipher finds himself in the afterlife, he joins a special police force and returns to Earth to save humanity from the undead.",
+      "poster_path": "/g4yJTzMtOBUTAR2Qnmj8TYIcFVq.jpg",
+      "genres": [
+        14,
+        28,
+        35,
+        80
+      ]
+    }
+  },
+  {
+    "pk": 718930,
+    "model": "movies.trend",
+    "fields": {
+      "movie_id": 718930,
+      "title": "불릿 트레인",
+      "released_date": "2022-07-03",
+      "popularity": 699.44,
+      "vote_avg": 7.515,
+      "overview": "운이 없기로 유명한 킬러 레이디버그는 초고속 열차에 탑승해 의문의 서류 가방을 가져오라는 미션을 받는다. 생각보다 쉽게 미션을 클리어한 후 열차에서 내리려는 그를 가로막는 것이 있었으니,  그것은 바로 전세계에서 몰려든 초특급 킬러들. 열차에서 내릴 수 없다면 목숨을 걸고 가방을 지켜야만 한다. 과연 레이디버그는 무사히 열차에서 내려 미션을 완수할 수 있을까?",
+      "poster_path": "/msh4N8dxHk4FeEPZ8VBqHQFQYjI.jpg",
+      "genres": [
+        28,
+        35,
+        53
+      ]
+    }
+  },
+  {
+    "pk": 913290,
+    "model": "movies.trend",
+    "fields": {
+      "movie_id": 913290,
+      "title": "바바리안",
+      "released_date": "2022-09-08",
+      "popularity": 265.228,
+      "vote_avg": 6.967,
+      "overview": "면접을 위해 디트로이트에 온 여성은 임대주택을 예약하지만 밤늦게 오니, 이중 예약으로, 이미 낯선 이가 있음을 알게 된다. 본의 아니게, 저녁을 보내기로 하지만, 곧 불청객보다 더 두려운 것이 많다는 걸 알게 된다.",
+      "poster_path": "/pMlnxNg0NXmxlp5MHsQBGDWeU9j.jpg",
+      "genres": [
+        27,
+        53
+      ]
+    }
+  },
+  {
+    "pk": 619730,
+    "model": "movies.trend",
+    "fields": {
+      "movie_id": 619730,
+      "title": "걱정말아요 그대",
+      "released_date": "2022-09-21",
+      "popularity": 421.167,
+      "vote_avg": 6.908,
+      "overview": "1950년대 미국 캘리포니아를 배경으로 유토피아 커뮤니티 내의 의심스러운 사건이 발생하는 것을 알게 된 주부가 남편의 충격적 비밀을 알게 되면서 벌어지는 심리 스릴러 영화",
+      "poster_path": "/60hrKYVq6Y1QRJeHNbYo3tHDcUd.jpg",
+      "genres": [
+        53,
+        9648,
+        878
+      ]
+    }
+  },
+  {
+    "pk": 595586,
+    "model": "movies.trend",
+    "fields": {
+      "movie_id": 595586,
+      "title": "더 브릿지",
+      "released_date": "2022-10-28",
+      "popularity": 301.024,
+      "vote_avg": 6.869,
+      "overview": "군인 린지(제니퍼 로렌스)는 사고로 인한 상처를 입고 고향인 뉴올리언스로 돌아와 적응하려고 고군분투한다. 동네 자동차 정비공 제임스(브라이언 타이리 헨리)를 만나고 둘은 예상하지 못한 유대감을 형성하기 시작한다.",
+      "poster_path": "/wNSfX8GOCfusviA9yxuKv9Tc9Gq.jpg",
+      "genres": [
+        18
+      ]
+    }
+  },
+  {
+    "pk": 833097,
+    "model": "movies.trend",
+    "fields": {
+      "movie_id": 833097,
+      "title": "폴링 포 크리스마스",
+      "released_date": "2022-11-10",
+      "popularity": 1130.517,
+      "vote_avg": 6.848,
+      "overview": "스키 여행 중 사고로 기억을 잃은 철없는 상속녀. 아내와 사별 후 힘든 상황에 놓인 남자와 딸의 포근한 보살핌 속에 크리스마스를 보낸다.",
+      "poster_path": "/6GkphwL9s6dZb3DoQS9OQ4LcPgY.jpg",
+      "genres": [
+        10749,
+        35
+      ]
+    }
+  },
+  {
+    "pk": 724495,
+    "model": "movies.trend",
+    "fields": {
+      "movie_id": 724495,
+      "title": "더 우먼 킹",
+      "released_date": "2022-09-15",
+      "popularity": 184.569,
+      "vote_avg": 7.383,
+      "overview": "The story of the Agojie, the all-female unit of warriors who protected the African Kingdom of Dahomey in the 1800s with skills and a fierceness unlike anything the world has ever seen, and General Nanisca as she trains the next generation of recruits and readies them for battle against an enemy determined to destroy their way of life.",
+      "poster_path": "/438QXt1E3WJWb3PqNniK0tAE5c1.jpg",
+      "genres": [
+        28,
+        18,
+        36
+      ]
+    }
+  },
+  {
+    "pk": 762504,
+    "model": "movies.trend",
+    "fields": {
+      "movie_id": 762504,
+      "title": "놉",
+      "released_date": "2022-07-20",
+      "popularity": 180.974,
+      "vote_avg": 6.959,
+      "overview": "거대하고, 주목받길 원하고, 미쳤다. 나쁜 기적이라는 것도 있을까?",
+      "poster_path": "/52McjY2vAEiF0lJe8iBdOBNuyok.jpg",
+      "genres": [
+        27,
+        9648,
+        878,
+        53
+      ]
+    }
+  },
+  {
+    "pk": 616037,
+    "model": "movies.trend",
+    "fields": {
+      "movie_id": 616037,
+      "title": "토르: 러브 앤 썬더",
+      "released_date": "2022-07-06",
+      "popularity": 845.188,
+      "vote_avg": 6.708,
+      "overview": "이너피스를 위해 자아 찾기 여정을 떠난 천둥의 신 토르. 그러나 우주의 모든 신들을 몰살하려는 신 도살자 고르의 등장으로 토르의 안식년 계획은 산산조각 나 버린다. 토르는새로운 위협에 맞서기 위해 킹 발키리, 코르그, 그리고 전 여자친구 제인과 재회하게 되고, 그녀가 묠니르를 휘두르는 마이티 토르가 되어 나타나 모두를 놀라게 한다. 이제 팀 토르는 고르의 복수에 얽힌 미스터리를 밝히고 더 큰 전쟁을 막기 위한 전 우주적 스케일의 모험을 시작하는데...",
+      "poster_path": "/un8ZDtx2SMwNwXRYy65aItnNjab.jpg",
+      "genres": [
+        14,
+        28,
+        35
+      ]
+    }
+  },
+  {
+    "pk": 928344,
+    "model": "movies.trend",
+    "fields": {
+      "movie_id": 928344,
+      "title": "위어드: 알 얀코빅 스토리",
+      "released_date": "2022-09-08",
+      "popularity": 217.021,
+      "vote_avg": 6.692,
+      "overview": "Exploring every facet of ‘Weird Al’ Yankovic’s life, from his meteoric rise to fame with early hits like ‘Eat It’ and ‘Like a Surgeon’ to his torrid celebrity love affairs and famously depraved lifestyle, this biopic takes audiences on a truly unbelievable journey through Yankovic’s life and career, from gifted child prodigy to the greatest musical legend of all time.",
+      "poster_path": "/qcj2z13G0KjaIgc01ifiUKu7W07.jpg",
+      "genres": [
+        35,
+        10402,
+        18
+      ]
+    }
+  },
+  {
+    "pk": 560052,
+    "model": "movies.trend",
+    "fields": {
+      "movie_id": 560052,
+      "title": "엘머의 모험",
+      "released_date": "2022-11-04",
+      "popularity": 118.952,
+      "vote_avg": 7.278,
+      "overview": "낯선 환경에 힘들어하던 엘머는 어느 섬에 갇혀있는 아기 드래곤을 구하기 위해 모험을 떠난다. 그리고 그 길에서 사나운 짐승들과 신비의 섬, 그리고 최고의 우정을 만나게 된다.",
+      "poster_path": "/6hgEe1w0An5fKi3ZqIUBwOyIN2y.jpg",
+      "genres": [
+        16,
+        12,
+        10751,
+        14,
+        35
+      ]
+    }
+  }
+]
