@@ -17,21 +17,21 @@
       <h2>Sign Up</h2>
 
         <div class="login_id">          
-          <h4>ID</h4>           
+          <b>ID</b>           
           <label for="username"></label>
           <input type="text" id="username"  v-model="username" placeholder="ID를 입력하세요."/>
         </div>
 
 
         <div class="login_pw">
-          <h4>password</h4>
+          <b>password</b>
           <input type="password" id="password1" v-model="password1" placeholder="Password를 입력하세요."/>
         </div>
 
         
         <div class="login_pw">
-          <h4>password confirmation</h4>
-          <input type="password" id="password2" v-model="password2" placeholder="Password를 입력하세요."/>
+          <b>password 확인</b>
+          <input type="password" id="password2" v-model="password2" placeholder="동일한 password를 입력하세요."/>
         </div>
 
       <div class="submit"> 
@@ -155,9 +155,10 @@ h2 {
 }
 
 .login_id {
-  margin-top: 20px;
-  width: 100%;
+  width: 90%;
+  text-align: left;
   color: white;
+  margin: 20px 10px 5px 10px;
 }
 
 .login_id input {
@@ -171,13 +172,14 @@ h2 {
 }
 
 .login_pw {
-  margin-top: 20px;
+  margin: 20px 10px 5px 10px;
+  text-align: left;
   width: 100%;
   color: white;
 }
 
 .login_pw input {
-  width: 100%;
+  width: 90%;
   height: 50px;
   border-radius: 30px;
   margin-top: 10px;
@@ -202,7 +204,7 @@ h2 {
   width: 80%;
 }
 .submit input {
-  width: 100%;
+  width: 120%;
   height: 50px;
   border: 0;
   outline: none;

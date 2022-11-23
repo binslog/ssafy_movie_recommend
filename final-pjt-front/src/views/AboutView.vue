@@ -1,190 +1,79 @@
 <template>
-<div>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
-
-</head>
-
-<body>
-    <div class="wrap"
-    id="test"
+  <div>
+    <b-carousel
+      id="carousel-1"
+      v-model="slide"
+      :interval="4000"
+      controls
+      indicators
+      background="#ababab"
+      img-width="800"
+      img-height="300"
+      style="text-shadow: 1px 1px 2px #333;"
+      @sliding-start="onSlideStart"
+      @sliding-end="onSlideEnd"
     >
-      <div class="login">
-        
-            <h2>Log-in</h2>
+      <!-- Text slides with image -->
+      <b-carousel-slide
+        caption="First slide"
+        text="Nulla vitae elit libero, a pharetra augue mollis interdum."
+        img-src="https://picsum.photos/1024/480/?image=52"
+      ></b-carousel-slide>
 
-            <div class="login_id">
-              <h4>E-mail</h4>
-              <input type="email" name="" id="" placeholder="Email">
-            </div>
+      <!-- Slides with custom text -->
+      <b-carousel-slide img-src="https://picsum.photos/1024/480/?image=54">
+        <h1>Hello world!</h1>
+      </b-carousel-slide>
 
-            <div class="login_pw">
-                <h4>Password</h4>
-                <input type="password" name="" id="" placeholder="Password">
-              </div>
+      <!-- Slides with image only -->
+      <b-carousel-slide img-src="https://picsum.photos/1024/480/?image=58"></b-carousel-slide>
 
-              <div class="submit">
-                <input type="submit" value="submit">
-            </div>
+      <!-- Slides with img slot -->
+      <!-- Note the classes .d-block and .img-fluid to prevent browser default image alignment -->
+      <b-carousel-slide>
+        <template #img>
+          <img
+            class="d-block img-fluid w-100"
+            width="1024"
+            height="480"
+            src="https://picsum.photos/1024/480/?image=55"
+            alt="image slot"
+          >
+        </template>
+      </b-carousel-slide>
 
-      </div>
-        </div>
-      </body>
-      
-      
-      </html>
-    </div>
-  </template>
+      <!-- Slide with blank fluid image to maintain slide aspect ratio -->
+      <b-carousel-slide caption="Blank Image" img-blank img-alt="Blank image">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eros felis, tincidunt
+          a tincidunt eget, convallis vel est. Ut pellentesque ut lacus vel interdum.
+        </p>
+      </b-carousel-slide>
+    </b-carousel>
+
+    <p class="mt-4">
+      Slide #: {{ slide }}<br>
+      Sliding: {{ sliding }}
+    </p>
+  </div>
+</template>
 
 
-
-
-
-<script src="https://kit.fontawesome.com/53a8c415f1.js" crossorigin="anonymous"></script>
 <script>
-// import TrendMovie from '@/components/TrendMovie'
-export default{
-  // name:AboutView 
-
-}
+  export default {
+    data() {
+      return {
+        slide: 0,
+        sliding: null
+      }
+    },
+    methods: {
+      onSlideStart(slide) {
+        this.sliding = true
+      },
+      onSlideEnd(slide) {
+        this.sliding = false
+      }
+    }
+  }
 </script>
-
-
-<style>
-
-/* #test {
-   font-family: 'Humanbumsuk';
-} */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Noto Sans KR', sans-serif;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-}
-
-li {
-  list-style: none;
-}
-
-.wrap {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: rgba(0, 0, 0, 0.1);
-  font-family: 'Noto Sans KR', sans-serif;
-}
-
-.login {
-  width: 30%;
-  height: 600px;
-  background: black;
-  border-radius: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-h2 {
-  color: tomato;
-  font-size: 2em;
-}
-.login_sns {
-  padding: 20px;
-  display: flex;
-}
-
-.login_sns li {
-  padding: 0px 15px;
-}
-
-.login_sns a {
-  width: 50px;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
-  border-radius: 50px;
-  background: white;
-  font-size: 20px;
-  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4), -3px -3px 5px rgba(0, 0, 0, 0.1);
-}
-
-.login_id {
-  margin-top: 20px;
-  width: 80%;
-  color: white;
-}
-
-.login_id input {
-  width: 100%;
-  height: 50px;
-  border-radius: 30px;
-  margin-top: 10px;
-  padding: 0px 20px;
-  border: 1px solid lightgray;
-  outline: none;
-}
-
-.login_pw {
-  margin-top: 20px;
-  width: 80%;
-  color: white;
-}
-
-.login_pw input {
-  width: 100%;
-  height: 50px;
-  border-radius: 30px;
-  margin-top: 10px;
-  padding: 0px 20px;
-  border: 1px solid lightgray;
-  outline: none;
-}
-
-.login_etc {
-  padding: 10px;
-  width: 80%;
-  font-size: 14px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-weight: bold;
-  color: white;
-}
-
-.submit {
-  margin-top: 50px;
-  width: 80%;
-}
-.submit input {
-  width: 100%;
-  height: 50px;
-  border: 0;
-  outline: none;
-  border-radius: 40px;
-  background: linear-gradient(to left, rgb(255, 77, 46), rgb(255, 155, 47));
-  color: white;
-  font-size: 1.2em;
-  letter-spacing: 2px;
-}
-
-/* @font-face {
-    font-family: 'Humanbumsuk';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/Humanbumsuk.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-} */
-</style>

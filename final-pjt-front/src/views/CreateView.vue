@@ -1,18 +1,27 @@
 <!-- views/CreateView.vue -->
 
 <template>
-  <div>
-    <h1>게시글 작성</h1>
-    <form @submit.prevent="createArticle">
+<div class="d-flex justify-content-center mb-3 mt-3">
+  <b-card no-body class="overflow-hidden" style="max-width: 500px;">
+    <form @submit.prevent="createArticle">.
+      <h2>게시글 작성</h2>
+      <hr>
+      <div class="login_id">
       <label for="title">제목 :</label>
-      <input type="text" id="title" v-model.trim="title" />
-      <br />
+      </div>
+      
+      <input type="text" id="title" v-model.trim="title" placeholder="제목을 입력하세요." />
+      
+      <hr>
       <label for="content">내용 :</label>
       <textarea id="content" cols="30" rows="10" v-model="content"></textarea>
-      <br />
+      
+      <hr>
       <input type="submit" id="submit" />
+
     </form>
-  </div>
+  </b-card>
+</div>
 </template>
 
 <script>
@@ -64,4 +73,39 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+
+.login_id {
+  width: 90%;
+  text-align: left;
+  color: white;
+  margin: 20px 10px 5px 10px;
+}
+
+.login_id input {
+  width: 100%;
+  height: 50px;
+  border-radius: 30px;
+  margin-top: 10px;
+  padding: 0px 20px;
+  border: 1px solid lightgray;
+  outline: none;
+}
+
+.login_pw {
+  margin: 20px 10px 5px 10px;
+  text-align: left;
+  width: 100%;
+  color: white;
+}
+
+.login_pw input {
+  width: 90%;
+  height: 50px;
+  border-radius: 30px;
+  margin-top: 10px;
+  padding: 0px 20px;
+  border: 1px solid lightgray;
+  outline: none;
+}
+</style>

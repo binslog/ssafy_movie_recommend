@@ -1,13 +1,17 @@
 <template>
   <div>
-    <h1>Detail</h1>
-    <p>글 번호 : {{ article?.id }}</p>
-    <p>제목 : {{ article?.title }}</p>
+    <div class="d-flex justify-content-center mb-3 mt-3">
+  <b-card no-body class="overflow-hidden" style="max-width: 500px;">
+    <h3>{{ article?.id }}번째 글</h3>
+    <hr>
+    <h3><b> {{ article?.title }} </b></h3>
+    <hr>
     <p>내용 : {{ article?.content }}</p>
+    
+    <hr>
     <p>작성시간 : {{ article?.created_at }}</p>
-    <p>수정시간 : {{ article?.updated_at }}</p>
-
     <div>
+    <hr>
       <p v-if="isCommentszero">
         덧글을 입력해 주세요
       </p>
@@ -34,7 +38,7 @@
 
     <p>여기는 덧글 목록입니다.</p>
     
-    <ul>
+    <!-- <ul>
       <li 
       v-for="(comment, id) in comments"
       :key="id"
@@ -42,7 +46,10 @@
       >
     {{ comment.content }} 
     </li>
-    </ul>
+    </ul> -->
+  
+  </b-card>
+  </div>
   </div>
 </template>
 

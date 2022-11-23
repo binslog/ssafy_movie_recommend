@@ -1,37 +1,25 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-
-    <div>homeview입니다.</div>
-    <div>
-      무비올 시작
-      <!-- <MovieAll /> -->
-      여기까지 무비올
-      <TrendMovie />
+  <div class="home" >
+    <div class="trend">
+      <h4><b>최신 개봉작</b></h4>
     </div>
 
-    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-    <!-- <SignLogin /> -->
+    <div>
+    <TrendMovie />
+      최신 개봉작 끝
+    </div>
+
+
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-// import HelloWorld from '@/components/HelloWorld.vue'
-// import SignLogin from '../components/SignLogin.vue'
-
-// import NavBar from '@/components/NavBar.vue'
-// import MovieAll from '@/components/MovieAll.vue'
 import TrendMovie from '@/components/TrendMovie.vue'
 
 export default {
   name: 'HomeView',
   components: {
-    // NavBar,
-    // MovieAll,
     TrendMovie,
-
-    // HelloWorld,
   },
 
   created() {
@@ -48,3 +36,18 @@ export default {
   },
 }
 </script>
+
+
+<style>
+
+.home{
+  background-color: black;
+}
+
+.trend{
+  text-align: left;
+  color: white;
+  margin: 10px 0px 0px 60px;
+}
+
+</style>

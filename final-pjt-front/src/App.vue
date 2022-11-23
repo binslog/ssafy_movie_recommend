@@ -1,11 +1,10 @@
 <template>
   <div id="app">
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-      <div class="container-fluid">
-      </div>
+    <nav class="navbar navbar-expand-sm navbar-dark">
+      
       <div class="container-fluid">
         <router-link to="/" class="navbar-brand">
-          <img alt="Vue logo" src="./assets/logo.png" style="height: 50px;" />
+          <img alt="Vue logo" src="./assets/logo.png" style="height: 70px; width: 50;" />
         </router-link>
         <ul class="navbar-nav">
           <li v-if="isLogin !== null" class="nav-item" @click="Logout">
@@ -63,7 +62,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  background-color: black;
 }
 
 nav {
@@ -72,10 +71,10 @@ nav {
 
 nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: white;
 }
 
 nav a.router-link-exact-active {
-  color: #42b983;
+  color: red;
 }
 </style>

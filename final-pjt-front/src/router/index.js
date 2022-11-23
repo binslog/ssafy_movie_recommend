@@ -9,10 +9,11 @@ import ArticleView from '@/views/ArticleView'
 import CreateView from '@/views/CreateView'
 import CommentCreateView from '@/views/CommentCreateView'
 import DetailView from '@/views/DetailView'
-<<<<<<< HEAD
-=======
+
+// <<<<<<< HEAD
+// =======
 import MoCommentCreView from '@/views/MoCommentCreView'
->>>>>>> e48e4d4c1a283694e9b9fe049ef7fd684378d0a7
+// >>>>>>> e48e4d4c1a283694e9b9fe049ef7fd684378d0a7
 
 Vue.use(VueRouter)
 

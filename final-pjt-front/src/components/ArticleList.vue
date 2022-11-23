@@ -1,12 +1,15 @@
 <template>
-  <div class="article-list">
-    <h3>Article List</h3>
-    <ArticleListItem
-      v-for="article in articles"
-      :key="article.id"
-      :article="article"
-    />
+<div>  
+  <div class="container">
+    <div class="row row-cols-4">
+      <ArticleListItem
+        v-for="article in articles"
+        :key="article.id"
+        :article="article"
+      />
   </div>
+</div>
+</div>
 </template>
 
 <script>

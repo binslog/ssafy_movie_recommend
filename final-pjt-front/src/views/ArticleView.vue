@@ -1,10 +1,20 @@
 <template>
   <div>
-    <h1>Article Page</h1>
-    <router-link :to="{ name: 'CreateView' }">[CREATE]</router-link>
-    <hr />
-    <ArticleList />
+
+  <div class="title">
+    <h3>게시글 목록</h3>
+  
+    <div class="button">
+    <b-button @click="getdetail" variant="danger" >게시글 작성</b-button>
+    </div>
+
+
   </div>
+  
+  <ArticleList />
+  
+  </div>
+
 </template>
 
 <script>
@@ -32,8 +42,27 @@ export default {
         this.$router.push({ name: 'LogInView' })
       }
     },
+
+    getdetail() {
+      this.$router.push({ name: 'CreateView' })
+    },
+
   },
 }
+
 </script>
 
-<style></style>
+<style>
+
+.title{
+  text-align:center;
+  color: white;
+  margin: 10px 0px 0px 60px;
+}
+
+.button {
+  text-align:right ;
+  margin: 0px 100px 20px 0px;
+}
+
+</style>
