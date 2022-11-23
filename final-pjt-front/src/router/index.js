@@ -1,21 +1,22 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-// import StartView from '../views/StartView.vue'
-import LoginView from '../views/LoginView.vue'
+
+import LogInView from '../views/LogInView.vue'
 import SignupView from '../views/SignupView.vue'
-import CommunityView from '../views/CommunityView.vue'
-
-
+import MoviedetailView from '../views/MoviedetailView.vue'
+import ArticleView from '@/views/ArticleView'
+import CreateView from '@/views/CreateView'
+import CommentCreateView from '@/views/CommentCreateView'
+import DetailView from '@/views/DetailView'
+<<<<<<< HEAD
+=======
+import MoCommentCreView from '@/views/MoCommentCreView'
+>>>>>>> e48e4d4c1a283694e9b9fe049ef7fd684378d0a7
 
 Vue.use(VueRouter)
 
 const routes = [
-  // {
-  //   path: '/',
-  //   name: 'start',
-  //   component: StartView,
-  // },
   {
     path: '/about',
     name: 'about',
@@ -27,8 +28,8 @@ const routes = [
   },
   {
     path: '/login',
-    name: 'login',
-    component: LoginView,
+    name: 'LogInView',
+    component: LogInView,
   },
   {
     path: '/',
@@ -37,16 +38,47 @@ const routes = [
   },
   {
     path: '/signup',
-    name: 'signup',
+    name: 'SignupView',
     component: SignupView,
+  },
+  {
+    // path: 'movies/detail',
+    path: '/movies/:movie_id',
+    name: 'MovieDetail',
+    component: MoviedetailView,
+  },
+  {
+    path: '/articles',
+    name: 'articles',
+    component: ArticleView,
   },
 
   {
-    path: '/community',
-    name: 'community',
-    component: CommunityView,
+    path: '/create',
+    name: 'CreateView',
+    component: CreateView,
   },
+  // {
+  //   path: '/tss',
+  //   name: 'TryCsssview',
+  //   component: TryCsssview,
+  // },
 
+  {
+    path: '/:id',
+    name: 'DetailView',
+    component: DetailView,
+  },
+  {
+    path: '/:id/createcomment',
+    name: 'CommentCreateView',
+    component: CommentCreateView,
+  },
+  {
+    path: '/movies/:movie_id/createcomment',
+    name: 'MoCommentCreView',
+    component: MoCommentCreView,
+  },
 ]
 
 const router = new VueRouter({

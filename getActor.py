@@ -1,9 +1,9 @@
-# 이번 주 트렌드 영화를 가져옵니다. 물론 오늘의 트렌드 영화도 가져올 수 있어요!!
+
 import requests
 import json
 
 TMDB_API_KEY = 'a6cf97bd4b454c941b8d86091ec398b5'
-
+movie_id = ''
 # TMDB_API_KEY = str(os.getenv('TMDB_API_KEY'))
 
 def get_movie_datas():
@@ -11,7 +11,7 @@ def get_movie_datas():
 
  
 
-    request_url = f"https://api.themoviedb.org/3/trending/movie/week?api_key={TMDB_API_KEY}&language=ko-KR"
+    request_url = f"https://api.themoviedb.org/3/movie/{movie_id}/credits?api_key={TMDB_API_KEY}&language=en-US"
     movies = requests.get(request_url).json()
 
     for movie in movies['results']:
