@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="d-flex justify-content-center">
-      "
+      
       <b-carousel
         id="carousel-1"
         v-model="slide"
@@ -12,8 +12,7 @@
         img-width="500"
         img-height="300"
         style="text-shadow: 1px 1px 2px #333; width: 400px;"
-        @sliding-start="onSlideStart"
-        @sliding-end="onSlideEnd"
+
       >
         <TrendMovieItem
           v-for="(movie, index, movie_id) in trendmovies"
